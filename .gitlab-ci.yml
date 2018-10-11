@@ -1,0 +1,17 @@
+image: python:2.7
+
+stages:
+   - tests
+# Add stages here
+
+lint:
+  stage: tests
+  script:
+  - pip install -r dev_requirements.txt
+  - pytest --flake8
+
+unit_test:
+  stage: tests
+  script:
+  - pip install -r dev_requirements.txt
+  - pytest --cov
