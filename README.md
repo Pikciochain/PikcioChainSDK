@@ -1,9 +1,5 @@
 # PikcioChain API
 
-[![master-build](https://gitlab.com/pikciochain/python-sdk/badges/master/pipeline.svg)](https://gitlab.com/pikciochain/python-sdk/commits/master)
-<!-- [![coverage](https://gitlab.com/pikciochain/python-sdk/badges/master/coverage.svg)](https://gitlab.com/pikciochain/python-sdk/commits/master) -->
-
-
 This is the Open Source Python SDK of the PikcioChain.
 
 This documentation will get you through setting up the API and contains 
