@@ -1,3 +1,6 @@
+### This version of the PikcioChain SDK is outdated
+### A new version, compatible with the new version of PikcioMe (see pikcio.me), will be released soon
+
 # PikcioChain API
 
 This is the Open Source Python SDK of the PikcioChain.
@@ -11,15 +14,15 @@ If you have trouble using the API, send us an email at [support@pikcio.com](mail
 
 Current revisiion is 2.0.5 - Aug 2018
 
-**Name**|**Date**|**Version #**|**Comments**
-:-----:|:-----:|:-----:|:-----:
-Hugo ROCHE|May 2016|1.09|Creation
-Hugo ROCHE|July 2016|1.12|Config file and improve documentation
-Hugo ROCHE|July 2016|1.12|Add file functions
-Fabien BUCAMP|March 2017|2.02|Improve configuration file, test all existing requests following the Pikcio code refactoring and update documentation
-Fabien BUCAMP|July 2017|2.03|Add PikcioChain features: certified chat, file, check certification for chat, file and Pikcio message. Refactor init
-Fabien BUCAMP|September 2017|2.04|Add wallet features: pay, update transactions, get transactions
-Aurélien LAWICKI|August 2018|2.05|Update API features and tests
+**Date**|**Version #**|**Comments**
+:-----:|:-----:|:-----:
+May 2016|1.09|Creation
+July 2016|1.12|Config file and improve documentation
+July 2016|1.12|Add file functions
+March 2017|2.02|Improve configuration file, test all existing requests following the Pikcio code refactoring and update documentation
+July 2017|2.03|Add PikcioChain features: certified chat, file, check certification for chat, file and Pikcio message. Refactor init
+September 2017|2.04|Add wallet features: pay, update transactions, get transactions
+August 2018|2.05|Update API features and tests
 
 ## Setup
 
@@ -319,7 +322,7 @@ Here is an extract of a response:
       "shared": 1,
       "tag": "account",
       "type": "text",
-      "value": "dev@matchupbox.com"
+      "value": "dev@pikcio.com"
     }
   },
   "status": true
@@ -561,7 +564,7 @@ result = client_api.get_contact_profile(matr_id='6ba95e36a2a4ff913fc6070f9a870ac
     "birth_place": "Paris",
     "children": "0",
     "city": "Paris",
-    "company": "Matchupbox",
+    "company": "Pikcio",
     "country": "France",
     "facebook_connections": "0",
     "facebook_name": "MUB",
